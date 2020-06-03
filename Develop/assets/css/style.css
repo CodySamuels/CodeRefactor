@@ -1,23 +1,20 @@
+/* This CSS applies to the whole document. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* This CSS changes everything in the body tag into an whiteish background. */
 body {
     background-color: #d9dcd6;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
+/* This sets the font size of all the paragraphs through the HTML. */
 p {
     font-size: 16px;
 }
 
-
+/* All this CSS will alter the header of the HTML. It should set the font, color, background. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,29 +22,39 @@ p {
     color: #ffffff;
 }
 
+    /* Makes the company logo appear to be one word, and sets the size */
     .header h1 {
         display: inline-block;
         font-size: 48px;
     }
 
+    /* Makes the company's logo's alternate color pop. */
     #seo {
         color: #d9dcd6;
     }
 
-    .header ul {
-        padding-top: 15px;
-        margin-right: 20px;
-        float: right;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
+    /* This CSS alters the links so that they are white. */
+    .header a {
+        color: #ffffff;
+        text-decoration: none;
     }
 
+    /* The list will be right-aligned. Have a specified font, and be specific size, with enough space inbetween each column. */
+    .header ul {
+        padding-top: 15px;
+            margin-right: 20px;
+            float: right;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+    /* This makes the actual content of the list appear to be a single line. */
     .header li {
         list-style-type: none;
         display: inline-block;
         margin-left: 25px;
     }
 
+/* This is the image that is the focus of the website. the size is specified from height and width. The background image actually references the image so it displays correctly.  */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,31 +64,37 @@ p {
     background-position: center;
 }
 
+/* This class just makes floating easier. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* This class just makes floating easier. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Alters the main content of the website. changes the size, and how it's displayed. */
 .main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* This CSS specifically alters the IMGs in this section so that they're all a uniform height of 200 pixels. */
 .main img {
     max-height: 200px;
 }
 
+/* Sets the size and margin of the header inside these individual elements. */
 .main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* This CSS makes the elements have a white text, with a blue background, sets the size of the box, and the font of the text within. */
 .section {
     margin-bottom: 20px;
     padding: 50px;
@@ -91,6 +104,7 @@ p {
     color: #ffffff;
 }
 
+/* This CSS creates a sidebar. The float makes sure it sits on the right side of the screen. The sidebar will contain a blue background and white text. */
 .aside {
     margin-right: 20px;
     padding: 20px;
@@ -102,20 +116,22 @@ p {
     background-color: #2589bd;
     margin-bottom: 32px;
     color: #ffffff;
+    }
 
-}
-
+    /* CSS changes H3 headers in the sidebar to be centered. */
     .aside h3 {
         margin-bottom: 10px;
         text-align: center;
     }
 
+    /* CSS shows the images that display in the sidebar within certain display parameters. */
     .aside img {
         display: block;
         margin: 10px auto;
         max-width: 150px;
     }
 
+/* CSS alters the footer of the HTML. Setting the font and centering it. */
 .footer {
     padding: 30px;
     clear: both;
@@ -123,6 +139,7 @@ p {
     text-align: center;
 }
 
+/* CSS changes the size of the H2 header in the HTML. */
 .footer h2 {
     font-size: 20px;
 }
