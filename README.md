@@ -3,7 +3,7 @@
 
  https://github.com/CodySamuels/CodeRefactor
 
-
+https://github.com/CodySamuels/CodeRefactor/blob/master/screenshot.png
 
 # 01 HTML CSS Git: Code Refactor
 
